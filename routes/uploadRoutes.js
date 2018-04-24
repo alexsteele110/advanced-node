@@ -16,7 +16,7 @@ module.exports = app => {
       'putObject',
       {
         Bucket: 'blogster-bucket-898',
-        ContentType: 'jpeg',
+        ContentType: 'image/jpeg',
         Key
       },
       (err, url) => res.send({ Key, url })
